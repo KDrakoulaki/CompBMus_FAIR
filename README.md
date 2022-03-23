@@ -1,4 +1,4 @@
-[![Frictionless](https://github.com/PolykarposPolykarpidis/CompBMus_FAIR/actions/workflows/frictionless.yaml/badge.svg)](https://repository.frictionlessdata.io/report?user=PolykarposPolykarpidis&repo=CompBMus_FAIR&flow=frictionless)
+
 
 # Making Byzantine Computational Musicology FAIR - a working example
 
