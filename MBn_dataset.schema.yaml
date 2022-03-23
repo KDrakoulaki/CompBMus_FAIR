@@ -1,0 +1,59 @@
+fields:
+  - name: id
+    title: Identifier
+    type: integer
+  - constraints:
+      pattern: martyria|phrase_line
+      required: true
+    description: 'this variable is binary: either a characteristic of ''martyria''
+      or ''phrase_line'' can be attributed. See below on constraints.'
+    name: m/p
+    title: martyria line or phrase line
+    type: string
+  - constraints:
+      required: true
+    description: this field contains a list of pitches, not always one pitch for each
+      cell
+    name: pitches
+    title: comma separated string of pitches
+    type: string
+  - name: voiced_unit
+    title: voiced unit identifier
+    type: string
+  - description: this field contains a list of intervals, not always one interval
+      for each cell
+    name: intervals
+    title: comma separated string of intervals
+    type: string
+  - name: syl
+    title: a syllable
+    type: string
+  - name: syl_is_accented
+    title: the syllable is accented
+    type: boolean
+  - description: this field is used to provide information whether a syllable contains
+      more than one Voiced unit
+    name: syl_is_continue
+    title: the syllable continues to the next phrase line
+    type: boolean
+  - name: is_last_syl_word
+    title: this syllable ends the word
+    type: boolean
+  - description: this field includes Voiceless identifiers which refer to a Voiced
+      unit of this phrase line. It contains a list of identifiers, not always one
+      identifier for each cell.
+    name: Voiceless
+    title: comma separated string of Voiceless identifiers
+    type: any
+  - description: this field includes Voiceless identifiers which refer to a Voiced
+      unit which continues the grouping for the next phrase line. It contains a list
+      of identifiers, not always one identifier for each cell.
+    name: Voiceless_continue
+    title: comma separated string of Voiceless identifiers that continues to the next
+      phrase line
+    type: any
+  - constraints:
+      required: true
+    name: is_last_syllable_phrase
+    title: this syllable ends the phrase
+    type: boolean

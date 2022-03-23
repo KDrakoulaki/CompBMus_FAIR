@@ -1,0 +1,89 @@
+description: This is the Making Byzantine Computational Musicology FAIR dataset. It
+  contains the resources (datasets), package schema, and other metadata.
+profile: data-package
+resources:
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1101_1r_2
+    path: dataset\gr_iviron1101_1r_2.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1101_1v_1
+    path: dataset\gr_iviron1101_1v_1.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1101_1v_2
+    path: dataset\gr_iviron1101_1v_2.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1101_1v_3
+    path: dataset\gr_iviron1101_1v_3.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1167_1r_1
+    path: dataset\gr_iviron1167_1r_1.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1167_1r_2
+    path: dataset\gr_iviron1167_1r_2.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1167_1v_1
+    path: dataset\gr_iviron1167_1v_1.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8
+    format: csv
+    hashing: md5
+    name: gr_iviron1167_2r_1
+    path: dataset\gr_iviron1167_2r_1.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+  - encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: invalid_file
+    path: dataset\invalid_file.csv
+    profile: tabular-data-resource
+    schema: MBn_dataset.schema.yaml
+    scheme: file
+title: MBn FAIR dataset
+licenses:
+- name: CC-BY-4.0
+  path: https://creativecommons.org/licenses/by/4.0/
+  title: Creative Commons Attribution 4.0
+contributors:
+- title: Katerina Drakoulaki
+  email: Katerina.Drakoulaki@gmail.com
+  role: author
+- title: Polykarpos Polykarpidis
+  email: polykarpospolykarpidis@gmail.com
+  role: author
+homepage: https://github.com/PolykarposPolykarpidis/CompBMus_FAIR
