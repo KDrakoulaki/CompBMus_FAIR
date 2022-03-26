@@ -1,4 +1,4 @@
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6379373.svg)](https://doi.org/10.5281/zenodo.6379373)
 
 # Making Byzantine Computational Musicology FAIR - a working example
 
