@@ -56,6 +56,10 @@ file_name_of_yaml_schema = "MBn_dataset.schema.yaml"
 schema.to_yaml(file_name_of_yaml_schema)
 
 
+
+
+
+
 #establish the same schema to each resource of the package ????? 
 for each_resource in package.resources:
 	each_resource.schema = file_name_of_yaml_schema
